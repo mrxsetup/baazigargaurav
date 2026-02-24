@@ -1,151 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BAAZIGAR (GAURAV)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAAZIGAR (GAURAV)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@700&display=swap" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s){
+            if(f.fbq)return;
+            n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];
+            t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)
+        }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
 
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s){
-if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)
-}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init','935834612128332');
+        fbq('track','PageView');
+    </script>
 
-fbq('init','935834612128332');
-fbq('track','PageView');
-</script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=935834612128332&ev=PageView&noscript=1"/>
+    </noscript>
 
-<noscript>
-<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=935834612128332&ev=PageView&noscript=1"/>
-</noscript>
-<!-- End Meta Pixel Code -->
-
-<style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Open Sans',sans-serif;}
-body{
-  min-height:100vh;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  background:linear-gradient(135deg,#020024,#090979,#00d4ff);
-}
-.hero{
-  width:360px;
-  border-radius:20px;
-  padding:25px 15px 18px;
-  text-align:center;
-  box-shadow:0 0 40px rgba(0,212,255,.4);
-  background:
-    linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
-    url("https://github.com/mrxsetup/baazigargaurav/blob/main/BAAZIGARGAURAV.jpeg?raw=true");
-  background-size:cover;
-  background-position:center;
-}
-.profile-picture img{
-  height:120px;width:120px;border-radius:50%;
-  border:4px solid #00d4ff;
-  box-shadow:0 0 25px #00d4ff;
-  object-fit:cover;
-}
-.heading1{
-  margin-top:15px;
-  font-family:'Oswald',sans-serif;
-  color:#fff;
-  letter-spacing:1px;
-}
-.subscriber-counter{
-  margin:15px 0;
-  color:#fff;
-  font-size:22px;
-  font-weight:bold;
-}
-.button{margin:16px 0;}
-.btn{
-  display:block;
-  padding:15px;
-  border-radius:14px;
-  color:#fff;
-  font-weight:bold;
-  text-decoration:none;
-  background:linear-gradient(270deg,#00c6ff,#0072ff,#00ffcc);
-  background-size:600% 600%;
-  animation:gradientMove 4s ease infinite;
-  box-shadow:0 0 20px rgba(0,198,255,.8);
-}
-@keyframes gradientMove{
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
-}
-.points ul{list-style:none;margin:18px 0;color:#fff;}
-.points li{margin:8px 0;}
-.trust{color:#00ffcc;font-size:14px;}
-.urgent{color:#ffcc00;font-size:15px;margin-top:6px;}
-</style>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
 </head>
 
-<body>
+<body class="min-h-screen bg-gradient-to-b from-blue-50 to-blue-100 flex items-center justify-center p-4">
 
-<div class="hero">
+    <div class="bg-white rounded-3xl shadow-xl p-8 w-full max-w-sm text-center relative">
 
-  <div class="profile-picture">
-    <img src="https://github.com/mrxsetup/baazigargaurav/blob/main/BAAZIGARGAURAV.jpeg?raw=true">
-  </div>
+        <div class="relative mx-auto w-24 h-24 mb-4">
+            <img src="https://github.com/mrxsetup/baazigargaurav/blob/main/BAAZIGARGAURAV.jpeg?raw=true"
+                 class="w-full h-full rounded-full object-cover border-4 border-white shadow-md">
+            <div class="absolute bottom-0 right-0 bg-blue-500 text-white rounded-full p-1 border-2 border-white">
+                ✓
+            </div>
+        </div>
 
-  <h1 class="heading1">🔥 BAAZIGAR (GAURAV) 🔥</h1>
+        <h1 class="text-2xl font-black text-gray-900 mb-1 uppercase">
+            BAAZIGAR (GAURAV)
+        </h1>
 
-  <div class="subscriber-counter" id="subscriber-count">0+ Members</div>
+        <p class="text-gray-500 text-xs font-bold mb-6">
+            1,000,000+ Subscribers
+        </p>
 
-  <div class="trust">✔️ 100% Free | ✔️ Trusted | ✔️ No Scam</div>
-  <div class="urgent">⏳ Join Before Match Starts</div>
+        <p class="text-gray-600 text-sm mb-6 leading-relaxed">
+            Join now for exclusive insights and daily tips.
+        </p>
 
-  <div class="button">
-    <a onclick="fbq('track','Lead')" href="https://t.me/+WwbqsuK2CuMxNmFl" class="btn">
-      Join India’s Most Trusted Cricket Channel <i class="fa-brands fa-telegram"></i>
-    </a>
-  </div>
+        <p class="text-blue-500 text-xs font-semibold mb-3 animate-pulse">
+            Tap button to view in Telegram
+        </p>
 
-  <div class="points">
-    <ul>
-      <li>🏆 IPL – High Accuracy</li>
-      <li>🏆 BBL – Consistent Pass</li>
-      <li>🏆 PSL – Expert Analysis</li>
-    </ul>
-  </div>
+        <a href="https://t.me/+WwbqsuK2CuMxNmFl" id="joinBtn"
+           class="block w-full bg-[#229ED9] hover:bg-[#1A8LB5] text-white font-bold py-4 rounded-xl shadow-lg shadow-blue-500/30 transition-transform active:scale-95">
 
-  <div class="button">
-    <a onclick="fbq('track','Lead')" href="https://t.me/+WwbqsuK2CuMxNmFl" class="btn">
-      SUBSCRIBE FOR FREE <i class="fa-brands fa-telegram"></i>
-    </a>
-  </div>
+            <span id="btnText">JOIN CHANNEL</span>
+            <span id="btnLoad" class="hidden">Loading...</span>
+        </a>
 
-</div>
+        <div class="mt-6 text-[10px] text-gray-400">
+            If you have Telegram, you can view and join<br>this channel right away.
+        </div>
 
-<script>
-const target = 30000;
-const duration = 2200;
-const el = document.getElementById("subscriber-count");
-let start = null;
-function animate(t){
-  if(!start) start = t;
-  let p = t - start;
-  let c = Math.min(Math.floor((p / duration) * target), target);
-  el.innerText = c.toLocaleString() + "+ Members";
-  if(c < target) requestAnimationFrame(animate);
-}
-requestAnimationFrame(animate);
-</script>
+        <div class="mt-2 text-[10px] text-gray-300">
+            Privacy • Terms
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('joinBtn').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('btnText').style.display = 'none';
+            document.getElementById('btnLoad').classList.remove('hidden');
+
+            if (typeof fbq === 'function') {
+                fbq('track', 'Lead');
+            }
+
+            setTimeout(() => {
+                window.location.href = "https://t.me/+WwbqsuK2CuMxNmFl";
+            }, 300);
+        });
+    </script>
 
 </body>
 </html>
